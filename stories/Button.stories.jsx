@@ -36,7 +36,6 @@ export const Basic = {
   args: {
     text: 'Hello World',
     colorScheme: 'primary',
-    textColor: 'white',
     size: 'md',
   },
 };
