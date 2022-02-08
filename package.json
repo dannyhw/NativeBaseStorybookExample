@@ -1,0 +1,44 @@
+{
+  "name": "nativebasestorybook",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint .",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {
+    "native-base": "^3.3.5",
+    "react": "17.0.2",
+    "react-native": "0.67.2",
+    "react-native-safe-area-context": "^3.3.2",
+    "react-native-svg": "^12.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/runtime": "^7.12.5",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "@storybook/addon-actions": "^6.4.18",
+    "@storybook/addon-essentials": "^6.4.18",
+    "@storybook/addon-links": "^6.4.18",
+    "@storybook/addon-react-native-web": "^0.0.18",
+    "@storybook/react": "^6.4.18",
+    "babel-jest": "^26.6.3",
+    "babel-loader": "^8.2.3",
+    "babel-plugin-react-native-web": "^0.17.5",
+    "eslint": "7.14.0",
+    "eslint-plugin-storybook": "^0.5.6",
+    "jest": "^26.6.3",
+    "metro-react-native-babel-preset": "^0.66.2",
+    "react-dom": "^17.0.2",
+    "react-native-web": "^0.17.5",
+    "react-test-renderer": "17.0.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
